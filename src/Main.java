@@ -8,6 +8,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         Scanner input = new Scanner(System.in);
 
+
         PC computer = new PC();
         computer.cpu = new CPU();
         computer.gpu = new GPU();
