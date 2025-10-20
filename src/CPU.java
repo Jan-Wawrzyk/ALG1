@@ -6,7 +6,8 @@ public class CPU {
 
     @Override
     public String toString() {
-        System.out.println(consumption + "negři");
+        // takhle to taky jde bez returnu, ale asi bych to endelal
+        System.out.println(consumption + "cerni");
 
         return "PC{" +
                 "consumption='" + consumption + '\'' +

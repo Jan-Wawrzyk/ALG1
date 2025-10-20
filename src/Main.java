@@ -22,5 +22,7 @@ public class Main {
         System.out.println(computer.cpu.toString());
         System.out.println(computer.cpu.power);
 
+        System.out.println(computer);
+
     }
 }

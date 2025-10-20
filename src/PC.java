@@ -6,9 +6,9 @@ public class PC {
     @Override
     public String toString() {
         return "PC{" +
-                "hdd=" + hdd +
-                ", cpu=" + cpu +
-                ", gpu=" + gpu +
+                "hdd=" + hdd.toString()+
+                ", cpu=" + cpu.toString() +
+                ", gpu=" + gpu.toString() +
                 '}';
     }
 }
