@@ -23,7 +23,7 @@ public class Main {
 //
 //        System.out.println(computer);
         // ^^1. Hodina pak chtěl dělat podmínky ^^
-
+        // TEST
         Point p = new Point();
         p.x = 2;
         p.y = 1;
