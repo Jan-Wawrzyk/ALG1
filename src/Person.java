@@ -14,7 +14,6 @@ public class Person
     {
         this.ALCOHOL_TOLERANCE = ALCOHOL_TOLERANCE;
     }
-
     // public - modifikátor přístupu
     // void <- co vrací
     // firstName <- Parametr, když to meotda má je parametrická
