@@ -6,7 +6,6 @@ public class Pozorovani {
    private Pozorovatel pozorovatel;
     private Lokalita lokalita;
     private Growth growth;
-
     Pozorovani(Date datum, String plodina, Lokalita lokalita,Growth growth, Pozorovatel pozorovatel ) {
         this.datum = datum;
         this.plodina = plodina;
