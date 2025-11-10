@@ -1,24 +1,25 @@
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        // Chce všude ať používáme getry a setry
-        Person jakub = new Person(11);
-
-        // tim že to je static nepotřebuje instanci
-        System.out.println(Person.ADULT_TRESHOLD);
-
-        //problemy s uživateli
+        Pozorovatel pozorovatel;
+        Lokalita lokalita = new Lokalita();
         Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.print("jmeno: ");
+        String surname = sc.nextLine();
+        System.out.print("prijmeni: ");
+        String nazev = sc.nextLine();
+        System.out.print("nazev plodiny: ");
+        Integer height = Integer.parseInt(sc.nextLine());
+        System.out.print("vyska plodiny: ");
 
-        System.out.print("Enter your name: ");
-        jakub.setFirstName(sc.nextLine());
-        System.out.print(jakub.getFirstName());
+        pozorovatel = new Pozorovatel(name, surname, Experience.EXPERT);// idk nevim jak se delaji nepovinne parmans
 
-        System.out.print("Enter your age: ");
+        Pozorovani pozorovani = new Pozorovani(new Date(),nazev, lokalita, Growth.BAD,pozorovatel);
 
-        jakub.setAge(sc.nextInt());
-        System.out.println(jakub.getAge());
+        pozorovani.toString();
+
     }
 }
