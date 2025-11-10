@@ -5,6 +5,7 @@ public class Person
     private int age;
     //konstanta ig
     // staticka znamena ze nepotrebuju instanci tridy abych ji zavolla
+    // final zanmena ze to je konstanta
     public static final int ADULT_TRESHOLD = 18;
     private static int ALCOHOL_TOLERANCE = 0;
 
